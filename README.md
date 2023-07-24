@@ -1,6 +1,6 @@
 ﻿# PHP-TEAM-PROJECT
 
- <img src="https://github.com/Fitalux/Portfolio/src/assets/image/workread/phpteamproject.png" />
+ <img src="https://github.com/Fitalux/Portfolio/blob/main/src/assets/image/workread/phpteamproject.png" />
 
 팀원들과 협력하여 html로 틀을 잡고 php 기반의 team project site입니다.
 javascript를 사용하여 찜, 슬라이드 등의 기능을 구현하였고, php와 javascript를 사용하여 회원가입, 로그인, 로그인 시 사용 가능한 페이지 안내 등의 기능을 구현하였습니다.
