@@ -1,0 +1,73 @@
+#Mypage {
+    width: 1200px;
+    height: 750px;
+    background-color: #F3F4F8;
+    border-radius: 5px;
+    margin: 80px auto;
+    font-family: 'GmarketSans';
+}
+#Mypage .Mypageimg .Mypageimg__min {
+    margin: 30px auto 0;
+}
+#Mypage .Mypageimg {
+    display: flex;
+}
+#Mypage .Mypageimg1 {
+    margin: 50px 20px 0 0; 
+    width: 100px;
+    height: 100px;
+    transform: scaleX(-1);
+}
+#Mypage .Mypageimg2 {
+    margin: 50px 0 0 20px;
+    width: 100px;
+    height: 100px;
+}
+#Mypage .profile {
+    width: 250px;
+}
+#Mypage .Mypagetext {
+    text-align: center;
+}
+#Mypage .Mypagetext h1 {
+    margin-top: 20px;
+    font-size: 48px;
+    color: #FFA96B;
+}
+#Mypage .Mypagetext p {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 28px;
+    color: #3E3E3E;
+}
+#Mypage .Mypagebox {
+    display: flex;
+    margin: 80px auto;
+}
+#Mypage .Mypagebox img {
+    width: 62px;
+}
+#Mypage .Mypagebox .boxname {
+    font-size: 20px;
+    color: #FFA96B;
+}
+#Mypage .Mypagebox1 {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 50px 0 50px;
+}
+
+#Mypage .Mypagebox .Mypagebox1 .Mypagebox2 .Minline {
+    margin: 10px auto;
+    width: 80px;
+    height: 5px;
+    border-top: 2px solid #FFA96B;
+}
+#Mypage .Mypagebox .Mypagebox1 .Mypagebox2 img:hover {
+    width: 80px;
+    transition: all 0.3s;
+}

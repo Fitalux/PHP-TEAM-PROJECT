@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/resets.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <style>
+        .Termsup__form .Termsup__change {
+            display: flex;
+        }
+        .Termsup__change img {
+            width: 250px;
+            border: 3px solid #FF8F3F;
+            border-radius: 250px;
+            margin: -50px;
+        }
+        .Termup__img {
+            width: 400px;
+            margin: 50px 0 0 100px;
+        }
+        .Termup__img input {
+            margin: 70px 0 0 30px;
+        }
+        #changeinfo {
+            width: 100%;
+        }
+        #modal {
+            width: 800px;
+            height: 700px;
+            text-align: center;
+            background-color: #fff;
+            border: 3px solid #FFA96B;
+            border-radius: 30px;
+            margin: 0 auto;
+            margin-top: 70px;
+            position: relative;
+        }
+        #modal .img1 img {
+            position: absolute;
+            right: 43px;
+            top: 38px;
+            width: 15px;
+            z-index: 1;
+        }
+        #modal .img2 img {
+            width: 130px;
+            margin: 30px 0 50px 0;
+        }
+        #modal .img1::after {
+            content: '';
+            position: absolute;
+            background-color: #FFA96B;
+            right: 33px;
+            top: 27px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+        #modal h2 {
+            font-size: 30px;
+            color: #FFA96B;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        #modal .Termsup__form .Term__box {
+            display: flex;
+            border: 2px solid #FF8F3F;
+            width: 298px;
+            height: 355px;
+            margin: 0 auto;
+            font-size: 12px;
+            overflow: auto;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .item {
+            font-size: 12px;
+            width: 200px;
+            margin-left: 100px;
+            text-align: left;
+        }
+        .item input {
+            width: 300px;
+            height: 35px;
+            margin-bottom: 10px;
+            border: 1px solid #FFA96B;
+            border-radius: 5px;
+        }
+        .Termsup__form label {
+            text-align: left;
+            margin-bottom: 5px;
+            color: #FF8F3F;
+        }
+        .Termsup__form button {
+            font-size: 30px;
+            font-weight: bold;
+            width: 300px;
+            height: 50px;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #FFA96B;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div class="header__inner">
+            <div class="util">
+                <h1><a href="http://kshkmn0929.dothome.co.kr/php2/html/main.html">영양많닭</a></h1>
+                <ul>
+                    <li><a href="joinup.html">회원가입</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="Mypage.html">마이페이지</a></li>
+                    <li><a href="serviceCenter.html">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <nav id="nav">
+        <ul>
+            <li class="nav__link"><a href="#">신제품</a></li>
+            <li class="nav__link"><a href="#">랭킹</a></li>
+            <li class="nav__link"><a href="compare.html">MyPick</a></li>
+            <li class="nav__link"><a href="#">브랜드관</a></li>
+            <li class="nav__link"><a href="#">커뮤니티</a></li>
+        </ul>
+    </nav>
+    <!-- nav -->
+    <div id="changeinfo">
+        <div id="modal">
+            <div class="img1">
+                <img src="../assets/img/Ximg.svg" alt="닫기">
+            </div>
+            <div class="img2">
+                <img src="../assets/img/logo.svg" alt="로고">
+            </div>
+            <div class="Termsup__form">
+                <form action="Termsup.php" name="Termsup" method="post">
+                    <fieldset>
+                        <div class="Termsup__change">
+                            <div>
+                                <legend class="blind">회원정보 변경 영역</legend>
+                                <div class="item">
+                                    <div>
+                                        <label for="youPass" class="required">비밀번호</label><br>
+                                        <input type="password" id="youPass" class="inputStyle"  name="youPass" placeholder="비밀번호를 적어주세요!" required>
+                                    </div>
+                                    <div>
+                                        <label for="youPassC" class="required">비밀번호 확인</label><br>
+                                        <input type="password" id="youPassC" class="inputStyle"  name="youPassC" placeholder="다시 비밀번호를 적어주세요!" required>
+                                    </div>
+                                    <div>
+                                        <label for="youName" class="required">이름</label><br>
+                                        <input type="text" id="youName" class="inputStyle" name="youName" placeholder="이름을 적어주세요!" required>
+                                    </div>
+                                    <div>
+                                        <label for="youEmail" class="required">이메일</label><br>
+                                        <input type="text" id="youEmail" class="inputStyle" name="youEmail" placeholder="이메일을 적어주세요!" required>
+                                    </div>
+                                    <div>
+                                        <label for="youPhone" class="required">연락처</label><br>
+                                        <input type="text" id="youPhone" class="inputStyle"  name="youPhone" placeholder="연락처를 적어주세요!" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Termup__img">
+                                <legend class="blind">이미지 변경 영역</legend>
+                                <img src="../assets/img/websimg.svg" alt="프로필 이미지">
+                                <input type="file" id="myFile">
+                            </div>
+                        </div>
+                        <a href="changeinfo.html"><button type="submit" class="button">수정하기</button></a>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- changeinfo -->
+    <footer id="footer">
+        <div class="container"> 
+        <div class="footer__text">
+            <a href="#">공지사항</a> | 
+            <a href="#">자주받는질문</a> | 
+            <a href="#" class="active">1:1질문</a> |
+            <a href="#">이용약관</a> |
+            <a href="#">개인정보처리방침</a></div>
+        </div>
+        <address>
+            영양많닭(주) | 대표자: 1조<br>
+            주소:안산시 단원구 고잔동 535-2번지 라인컴퓨터아트학원  | 사업자등록번호: 준비중<br>
+            통신판매업신고: 준비중 | 개인정보보호책임자: 1조
+        </address>
+    </footer>
+    <!-- footer -->
+</body>
+</html>

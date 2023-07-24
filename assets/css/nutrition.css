@@ -1,0 +1,390 @@
+#nutrition {
+  width: 1200px;
+  margin: 0 auto;
+}
+#nuthead {
+  margin-top: 100px;
+  width: 100%;
+  font-size: 27px;
+  border-bottom: 2px solid #000;
+}
+#nutcontents {
+  margin: 30px 0 100px 0;
+  display: flex;
+}
+.nutimg {
+  width: 340px;
+  height: 340px;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  position: relative;
+}
+.nutimg p {
+  position: absolute;
+  top: 350px;
+  font-size: 40px;
+  color: #424242;
+}
+#nutchoice {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 22px;
+  margin-top: 30px;
+  color: #ffb47e;
+  border: 2px solid #ffb47e;
+  transition: all 0.3s;
+}
+#nutchoice:hover {
+  background-color: #ffa05b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+}
+.nutimg img {
+  width: 340px;
+  height: 340px;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.nutinfo {
+  width: 800px;
+  height: 550px;
+  margin-left: 60px;
+}
+.nutinfo1 {
+  width: 100%;
+  height: 320px;
+  border: 2px solid #ffb47e;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.nutinfo1 h2 {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0 0 15px;
+}
+.nutinfo1 p {
+  position: absolute;
+  margin-top: 45px;
+  padding: 20px;
+  font-size: 17px;
+}
+.nutinfo1:after {
+  content: "";
+  width: 100%;
+  height: 50px;
+  background-color: #ffb47e;
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.nutgraph {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.nutgraph #compare__graph {
+  width: 500px;
+  height: 100%;
+  border: none;
+  margin-left: -30px;
+}
+
+.nutgraph #compare__graph span {
+  color: #fff;
+  font-size: 13px;
+  padding: 5px 0 20px 10px;
+}
+.nutgraph #compare__graph p {
+  font-size: 17px;
+  color: #000;
+}
+.nutgraph #compare__graph .bar-graph .bar-wrap {
+  background-color: #d9d9d9;
+  border: none;
+}
+.nutgraph #compare__graph .bar-graph .bar-fill.pink {
+  background-color: #ffb4f7;
+}
+.nutgraph #compare__graph .bar-graph .bar-fill.blue {
+  background-color: #89c6ff;
+}
+.nutcomment {
+  text-align: right;
+  color: #797979;
+}
+#nutsubcontents {
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ffb47e;
+}
+.mb320 {
+  margin-bottom: 320px;
+}
+.mt320 {
+  margin-top: 320px;
+}
+.mt-38 {
+  margin-top: -38px;
+}
+#nutsubcontents .nutmore {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#nutsubcontents .nutmore h2 {
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+#nutsubcontents .nutmore a {
+  padding: 15px 10px 0 0;
+  font-size: 17px;
+  color: #fff;
+}
+.nutcontent1 {
+  margin-top: 8px;
+  border: 2px solid #ffb47e;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  display: none;
+}
+.nutcontent1 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.nutcontent1 p {
+  border-bottom: 1px solid #000;
+  padding: 3px 0 3px 0;
+}
+.nutrient {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  height: 350px;
+}
+.nutrient div {
+  width: 12%;
+  height: 120px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffa05b;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 500;
+  color: #000;
+}
+.nutrient div:last-child {
+  margin-right: -1px;
+}
+.nutrient h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.nutrient span {
+  font-size: 18px;
+}
+
+#nutsubcontents1 {
+  background-color: #ffb47e;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  display: block;
+  position: relative;
+}
+#nutsubcontents1 .nutmore {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#nutsubcontents1 .nutmore h2 {
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+#nutsubcontents1 .nutmore a {
+  padding: 15px 10px 0 0;
+  font-size: 17px;
+  color: #fff;
+}
+.nutreviewbox {
+  width: 1100px;
+  margin: 30px auto 30px auto;
+  display: flex;
+  overflow: hidden;
+  height: 210px;
+}
+.nutreview {
+  display: flex;
+  width: 43.5555%;
+  height: 210px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 25px 25px;
+  margin: 0 35px;
+}
+.nutreview .reviewimg {
+  margin-top: 5px;
+  width: 220px;
+  height: 150px;
+  border: 1px solid #000;
+  text-align: bottom;
+}
+.reviewimg img {
+}
+.nutreviewmore {
+  padding: 8px;
+}
+.nutreviewmore .reviewmorehead {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  position: relative;
+}
+.nutreviewmore .reviewmorehead a {
+  font-size: 13px;
+  color: #797979;
+  position: absolute;
+  right: -25px;
+  top: 2px;
+}
+.nutreviewmore .reviewmorehead h3 {
+  font-size: 17px;
+}
+.nutreviewstar {
+  margin-bottom: 10px;
+}
+.nutreviewinfo {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.none {
+  display: none;
+}
+#nutritionfooter {
+  margin-top: 300px;
+}
+.nutbtn {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+  justify-content: space-between;
+  display: flex;
+}
+#like-button {
+  width: 100%;
+  color: #888;
+  font-size: 1.5em;
+  font-family: "CookieRun";
+  background-color: transparent;
+  border: 0.1em solid;
+  border-radius: 25px;
+  padding: 0.333em 1em 0.25em;
+  line-height: 1.2em;
+  box-shadow: 0 0.25em 1em -0.25em;
+  cursor: pointer;
+  transition: color 150ms ease-in-out, background-color 150ms ease-in-out,
+    transform 150ms ease-in-out;
+  outline: 0;
+  margin-top: 30px;
+}
+#like-button:hover {
+  color: #ffb47e;
+}
+#like-button:active {
+  transform: scale(0.95);
+}
+#like-button.selected {
+  color: #fff;
+  background-color: #ffb47e;
+  border-color: #ffb47e;
+}
+#like-button .heart-icon {
+  display: inline-block;
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 0.2em;
+}
+#nutfixed {
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  width: 180px;
+  height: 600px;
+  background-color: #fff;
+  border: 3px solid #ffb47e;
+  border-radius: 20px;
+  z-index: 100;
+  display: block;
+}
+#nutfixed .fixedclose {
+  position: absolute;
+  right: 50px;
+  top: -15px;
+  padding: 5px 0 0 18px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffb47e;
+  color: #fff;
+}
+#nutfixed div {
+  margin: 0 auto;
+  width: 80%;
+  height: 16.5555%;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px solid #ffa05b;
+}
+#nutfixed div img {
+  width: 100%;
+  height: 100%;
+}
+#nutfixed button {
+  padding: 11px 0 0 55px;
+  bottom: -70px;
+  right: 0;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  background-color: #ffb47e;
+  font-size: 20px;
+  color: #fff;
+}
+#nutfixed button:hover {
+  background-color: #ff7a1a;
+  opacity: 0.8;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.opa0 {
+  opacity: 0;
+}
+@media (max-width: 1400px) {
+  #nutfixed {
+    display: none;
+  }
+}

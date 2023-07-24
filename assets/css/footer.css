@@ -1,0 +1,28 @@
+#footer a {
+    text-decoration: none;
+    color: inherit;
+}
+#footer .active {
+    font-weight: bold;
+}
+#footer {
+    background-color: #f8f8f8;
+    color: #666;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+#footer address {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.footer__text {
+    color: #555;
+    word-spacing: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    border-bottom: 1px solid #5b5b5b2e;
+}

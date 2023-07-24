@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+p {
+    font-size: 14px;
+    color: #9C9C9C;
+    margin-bottom: 10px;
+}
+#modal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#modal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#modal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#modal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#logo {
+    width: 224px;
+    height: 175px;
+    margin: 0 auto;
+}
+.login__form {
+    align-items: center;
+}
+div.user-box {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+div.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #FFA96B;
+    outline: none;
+    background: transparent;
+}
+input::placeholder {
+    font-weight: 300;
+    color: #ccc;
+  }
+.user-box label {
+    font-weight: 600;
+    color: #FFA96B;
+}
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #FFA96B;
+}
+.option li:nth-child(1),
+.option li:nth-child(2) {
+    border-right: 1px solid #E5E5E5;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.option li:last-child {
+    border-right: none;
+}
+.login__form button {
+    font-size: 30px;
+    font-weight: 400;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+}
+.login__form button:hover {
+    cursor: pointer;
+}
+#wrap {
+    width: 100%;
+}
+#searchIDmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#searchIDmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#searchIDmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#searchIDmodal .search__info {
+    margin-bottom: 40px;
+}
+#searchIDmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.search__form fieldset {
+    border: 1px solid #FFA96B;
+    border-right: 0;
+    border-left: 0;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.search__form label span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA96B;
+}
+.search__form label input {
+    position:absolute;
+    clip:rect(0 0 0 0);
+    width:1px;
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+}
+.search__form label span {
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 6px;
+    display: flex;
+    cursor: pointer;
+    margin: 2px 0;
+    margin-top: 5px;
+}
+.search__form label span::before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fff;
+    box-shadow: inset 0 0 0 4px #FFA96B;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+.search__form label input:checked + span::before {
+    box-shadow: inset 0 0 0 8px #FFA96B;
+}
+.user-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.user-box label {
+    color: #FFA96B;
+    font-size: 16px;
+    font-weight: bold;
+}
+.user-box input {
+    border: 1px solid #FFA96B;
+    font-size: 14px;
+    width: 230px;
+    height: 30px;
+}
+.search__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 30px;
+}
+.search__form button:hover {
+    cursor: pointer;
+}

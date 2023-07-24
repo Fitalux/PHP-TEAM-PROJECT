@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영양많닭 이용약관</title>
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/resets.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "NexonLv1Gothic";
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        #wrap {
+            width: 100%;
+        }
+        #modal {
+            width: 500px;
+            height: 700px;
+            text-align: center;
+            background-color: #fff;
+            border: 3px solid #FFA96B;
+            border-radius: 30px;
+            margin: 0 auto;
+            margin-top: 70px;
+            position: relative;
+        }
+        #modal .img1 img {
+            position: absolute;
+            right: 43px;
+            top: 38px;
+            width: 15px;
+            z-index: 1;
+        }
+        #modal .img1::after {
+            content: '';
+            position: absolute;
+            background-color: #FFA96B;
+            right: 33px;
+            top: 27px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+        #modal h2 {
+            font-size: 30px;
+            color: #FFA96B;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        #modal .Termsup__form .Term__box {
+            display: flex;
+            border: 2px solid #FF8F3F;
+            width: 400px;
+            height: 355px;
+            margin: 0 auto;
+            font-size: 15px;
+            overflow: auto;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        #modal .Termsup__form .Term__box::-webkit-scrollbar {
+            width: 10px;
+        }
+        #modal .Termsup__form .Term__box::-webkit-scrollbar-thumb {
+            height: 10%;
+            background-color: #FFA96B;
+            border-radius: 5px;
+        }
+        .Termsup__form button {
+            font-size: 30px;
+            font-weight: bold;
+            width: 300px;
+            height: 50px;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #FFA96B;
+            margin-top: 30px;
+        }
+        .check input[type="checkbox"] {
+            -webkit-appearance: none;
+            box-sizing: border-box;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            outline: none !important;
+            border: 1px solid #9999;
+            vertical-align: middle;
+        }
+        .check input[type="checkbox"]::before {
+            content: "\2713";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            overflow: hidden;
+            transform: scale(0) translate(-50%, -50%);
+            line-height: 1;
+        }
+        .check input[type="checkbox"]:checked {
+            background-color: #FFA96B;
+            border-color: rgba(255, 255, 255, 0.3);
+            color: white;
+        }
+        .check input[type="checkbox"]:checked::before {
+            border-radius: 4px;
+            transform: scale(1) translate(-50%, -50%)
+        }
+        .item {
+            width: 300px;
+            margin: 0 auto;
+        }
+        .check {
+            text-align: left;
+        }
+        .Termsup__form .check {
+            margin-top: 10px;
+        }
+        @media (max-width: 1200px) {
+            #modal {
+                width: 80%;
+                margin-top: 50px;
+        }
+        #modal h2 {
+            font-size: 28px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        #modal .Termsup__form .Term__box {
+            width: 80%;
+            height: 355px;
+            margin-bottom: 15px;
+        }
+        .item {
+            width: 80%;
+        }
+        .Termsup__form button {
+            font-size: 28px;
+            width: 250px;
+            height: 45px;
+            margin-top: 20px;
+        }
+        }
+        @media screen and (max-width: 768px) {
+            #modal {
+                width: 90%;
+                height: auto;
+                padding: 30px 0;
+            }
+            #modal h2 {
+                font-size: 24px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            #modal .Termsup__form .Term__box {
+                width: 90%;
+                height: auto;
+                padding: 20px;
+                margin-bottom: 10px;
+            }
+            .item {
+                width: 90%;
+            }
+            .Termsup__form button {
+                font-size: 24px;
+                width: 200px;
+                height: 40px;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="modal">
+            <div class="img1">
+                <img src="../assets/img/Ximg.svg" alt="닫기">
+            </div>
+            <h2>이용약관 동의</h2>
+            <div class="Termsup__form">
+                <form action="Termsup.php" name="Termsup" method="post">
+                    <fieldset>
+                        <legend class="blind">이용약관 영역</legend>
+                        <div class="Term__box">제 1 장 총 칙<br>
+                            제 1 조 (목적)이 약관은 {영양많닭}(이하 "사이트"라 합니다)에서 제공하는 인터넷서비스(이하 "서비스"라 합니다)의 이용 조건 및 절차에 관한 기본적인 사항을 규정함을 목적으로 합니다.
+                            제 2 조 (약관의 효력 및 변경)① 이 약관은 서비스 화면이나 기타의 방법으로 이용고객에게 공지함으로써 효력을 발생합니다.② 사이트는 이 약관의 내용을 변경할 수 있으며, 변경된 약관은 제1항과 같은 방법으로 공지 또는 통지함으로써 효력을 발생합니다.
+                            제 3 조 (용어의 정의)이 약관에서 사용하는 용어의 정의는 다음과 같습니다.① 회원 : 사이트와 서비스 이용계약을 체결하거나 이용자 아이디(ID)를 부여받은 개인 또는 단체를 말합니다.② 신청자 : 회원가입을 신청하는 개인 또는 단체를 말합니다.③ 아이디(ID) : 회원의 식별과 서비스 이용을 위하여 회원이 정하고 사이트가 승인하는 문자와 숫자의 조합을 말합니다.④ 비밀번호 : 회원이 부여 받은 아이디(ID)와 일치된 회원임을 확인하고, 회원 자신의 비밀을 보호하기 위하여 회원이 정한 문자와 숫자의 조합을 말합니다.⑤ 해지 : 사이트 또는 회원이 서비스 이용계약을 취소하는 것을 말합니다.
+                            제 2 장 서비스 이용계약
+                            제 4 조 (이용계약의 성립)① 이용약관 하단의 동의 버튼을 누르면 이 약관에 동의하는 것으로 간주됩니다.② 이용계약은 서비스 이용희망자의 이용약관 동의 후 이용 신청에 대하여 사이트가 승낙함으로써 성립합니다.
+                            .....</div>
+                            <div class="item">
+                            <div class="check">
+                                <input type="checkbox" id="check1">
+                                <label for="check1">이용약관에 동의합니다.</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" id="check2">
+                                <label for="check1">개인정보수집 및 이용에 동의합니다.</label>
+                            </div>
+                            </div>
+                        <button type="submit" class="button">다음</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

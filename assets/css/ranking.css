@@ -1,0 +1,261 @@
+/* container */
+.ranking__container {
+    /* width: 100%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'NexonLv1Gothic';
+}
+.mb70 {margin-bottom: 70px !important;}
+
+.ranking__kategorie {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 30px 5px 30px;
+    margin-top: 50px;
+}
+.ranking__kategorie__box {
+    width: 70px;
+    height: 70px;
+    border: 7px solid #FFA96B;
+    border-radius: 15px;
+}
+.ranking__kategorie__text {
+    font-size: 18px;
+    color: #F46803;
+    padding-top: 10px;
+}
+.all {
+    background-color: #fff;
+    color: #FFA96B;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.all:hover,
+.all.active {
+    background-color: #FFA96B;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-product {
+    background-image: url(../img/ranking__new-product.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.new-product:hover,
+.new-product.active {
+    background-image: url(../img/ranking__new-product-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.sausage {
+    background-image: url(../img/ranking__sausage.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.sausage:hover,
+.sausage.active {
+    background-image: url(../img/ranking__sausage-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.meatball {
+    background-image: url(../img/ranking__meatball.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.meatball:hover,
+.meatball.active {
+    background-image: url(../img/ranking__meatball-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.bento{
+    background-image: url(../img/ranking__bento.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.bento:hover,
+.bento.active{
+    background-image: url(../img/ranking__bento-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.steam{
+    background-image: url(../img/ranking__steam.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.steam:hover,
+.steam.active{
+    background-image: url(../img/ranking__steam-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.steak{
+    background-image: url(../img/ranking__steak.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.steak:hover,
+.steak.active{
+    background-image: url(../img/ranking__steak-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.bbq{
+    background-image: url(../img/ranking__bbq.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.bbq:hover,
+.bbq.active{
+    background-image: url(../img/ranking__bbq-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.sause{
+    background-image: url(../img/ranking__sauce.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    transition: all 0.3s;
+}
+.sause:hover,
+.sause.active{
+    background-image: url(../img/ranking__sauce-hover.svg);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+    background-color: #FFA96B;
+}
+.ranking__1st {
+    position: relative;
+    display: flex;
+}
+.ranking__1st__img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.ranking__text__1st{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 85px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40%;
+    height: 480px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.ranking__text__1st img{
+    width: 100px;
+    height: 100px;
+}
+.ranking__text__1st p {
+    font-size: 20px;
+    text-shadow: 1px 1px #000;
+}
+.ranking__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ranking__top img {
+    width: 380px;
+    height: 210px;
+}
+.ranking__2nd,
+.ranking__3rd,
+.ranking__4th,
+.ranking__5th,
+.ranking__6th,
+.ranking__7th,
+.ranking__8th,
+.ranking__9th,
+.ranking__10th,
+.ranking__11th,
+.ranking__12th {
+    position: relative;
+}
+.ranking__text {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+.ranking__lower__text1,
+.ranking__lower__text2 {
+    margin: 70px 0 30px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.ranking__lower1,
+.ranking__lower2,
+.ranking__lower__bottom1,
+.ranking__lower__bottom2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.ranking__lower1 img,
+.ranking__lower2 img,
+.ranking__lower__bottom1 img,
+.ranking__lower__bottom2 img {
+    width: 280px;
+    height: 280px;
+}
+.ranking__lower__desc {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.ranking__lower__desc span {
+    font-weight: bold;
+}

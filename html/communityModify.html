@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 글쓰기</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://webfontworld.github.io/cookierun/CookieRun.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header id="header">
+            <div class="header__inner">
+                <div class="util">
+                    <h1><a href="http://kshkmn0929.dothome.co.kr/php2/html/main.html">영양많닭</a></h1>
+                    <ul>
+                        <li><a href="joinup.html">회원가입</a></li>
+                        <li><a href="login.html">로그인</a></li>
+                        <li><a href="myPage.html">마이페이지</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <nav id="nav">
+            <ul>
+                <li class="nav__link"><a href="#">신제품</a></li>
+                <li class="nav__link"><a href="#">랭킹</a></li>
+                <li class="nav__link"><a href="#">브랜드관</a></li>
+                <li class="nav__link"><a href="#">커뮤니티</a></li>
+            </ul>
+        </nav>
+        <!-- nav -->
+        <div id="communityModify__inner">
+            <div class="board__write">
+                <form action="#" name="#" method="post">
+                    <fieldset>
+                        <legend class="blind">게시글 작성하기</legend>
+                        <div class="communityModify1">
+                            <label for="boardTitle">제목</label>
+                            <input type="text" id="boardTitle" name="boardTitle" class="inputStyle">
+                        </div>
+                        <div class="communityModify2">
+                            <label for="boardContents">내용</label>
+                            <textarea name="boardContents" id="boardContents" rows="20"  class="inputStyle"></textarea>
+                        </div>
+                        <button type="submit" class="btnStyle3">목록보기</button>
+                        <button type="submit" class="btnStyle4">수정하기</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

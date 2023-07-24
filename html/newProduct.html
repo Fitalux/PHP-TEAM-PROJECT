@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신제품</title>
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "NexonLv1Gothic";
+        }
+        #newproduct {
+            width: 100%;
+            height: 760px;
+        }
+        .newpro__h2 {
+            font-size: 36px;
+            font-weight: normal;
+            text-align: center;
+            padding-top: 110px;
+        }
+        .newpro__desc {
+            font-size: 24px;
+            text-align: center;
+            font-weight: lighter;
+            margin-top: 24px;
+            margin-bottom: 26px;
+        }
+        .newpro__inner {
+            width: 1420px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .newpro__img img {
+            border-radius: 10px;
+        }
+        .newpro__img img:hover {
+            cursor: pointer;
+        }
+        .newpro__img h4{
+            font-weight: normal;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .newpro__img h4:hover {
+            cursor: pointer;
+        }
+        .newpro__img strong {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="newproduct">
+            <h2 class="newpro__h2">신제품</h2>
+            <p class="newpro__desc">새로운 제품들의 정보를 빠르게 확인하세요!</p>
+            
+            <div class="newpro__inner">
+                <div class="newpro__img">
+                    <img src="../assets/img/chicken1.jpg" alt="신제품1">
+                    <h4>맛있닭 | 닭가슴살 스테이크 오리지널 100g</h4>
+                    <strong>15,900원</strong>
+                </div>
+                <div  class="newpro__img">
+                    <img src="../assets/img/chicken2.jpg" alt="신제품2">
+                    <h4>잇메이트 | 닭가슴살 소시지 혼합 100~120g</h4>
+                    <strong>21,750원</strong>
+                </div>
+                <div class="newpro__img">
+                    <img src="../assets/img/chicken3.jpg" alt="신제품3">
+                    <h4>맛있닭 | 닭가슴살 볼 혼합 100g</h4>
+                    <strong>18,900원</strong>
+                </div>
+                <div class="newpro__img">
+                    <img src="../assets/img/chicken4.jpg" alt="신제품4">
+                    <h4>잇메이트 | 훈제 닭가슴살 혼합 100g</h4>
+                    <strong>24,000원</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

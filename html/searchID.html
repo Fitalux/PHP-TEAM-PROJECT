@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영양많닭 로그인</title>
+    <link href="https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style2.css">
+</head>
+<body>
+    <div id="searchIDwrap">
+        <div id="searchIDmodal">
+            <div class="img1">
+                <img src="../assets/img/Ximg.svg" alt="닫기">
+            </div>
+            <div class="search__info">
+                <h2>아이디 찾기</h2>
+                <p>아이디 찾는 방법을 선택해주세요</p>
+            </div>
+            <div class="search__form">
+                <form action="loginSave.php" name="loginSave" method="post">
+                    <fieldset>
+                        <legend class="blind">로그인 영역</legend>
+                        <label for="choice1">
+                            <input type="radio" id="choice1" name="choice" class="select" value="1" checked>
+                            <span>휴대폰 번호로 찾기</span>
+                            <p>회원정보에 등록한 휴대폰 번호를 입력해주세요.</p>
+                        </label>
+                        <div class="user-box">
+                            <label for="youName" class="required">이름</label>
+                            <input type="text" id="youName" name="youName" class="inputStyle" placeholder="이름을 적어주세요!">
+                        </div>
+                        <div class="user-box">
+                            <label for="youPhone">휴대전화</label>
+                            <input type="text" id="youPhone" name="youPhone" class="inputStyle" placeholder="010-0000-0000">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="blind">이메일로 찾기</legend>
+                        <label for="choice2">
+                            <input type="radio" id="choice2" name="choice" class="select" value="2">
+                            <span>이메일로 찾기</span>
+                            <p>회원정보에 등록한 이메일을 입력해주세요.</p>
+                        </label>
+                        <div class="user-box">
+                            <label for="youEmail" class="required">이메일</label>
+                            <input type="email" id="youEmail" name="youEmail" class="inputStyle" placeholder="이메일">
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="button">아이디 찾기</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

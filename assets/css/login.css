@@ -1,0 +1,1134 @@
+#Termsupwrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+#Termsupwrap ul {
+    display: flex;
+    justify-content: space-between;
+}
+#Termsupwrap {
+    width: 100%;
+}
+#Termsupmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#Termsupmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#Termsupmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#Termsupmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#Termsupmodal .Termsup__form .Term__box {
+    display: flex;
+    border: 2px solid #FF8F3F;
+    width: 298px;
+    height: 355px;
+    margin: 0 auto;
+    font-size: 16px;
+    overflow: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#Termsupmodal .Termsup__form .Term__box::-webkit-scrollbar {
+    width: 10px;
+}
+#Termsupmodal .Termsup__form .Term__box::-webkit-scrollbar-thumb {
+    height: 10%;
+    background-color: #FFA96B;
+    border-radius: 5px;
+}
+#Termsupmodal .Termsup__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 30px;
+}
+#Termsupmodal .check input[type="checkbox"] {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    outline: none !important;
+    border: 1px solid #9999;
+    vertical-align: middle;
+}
+#Termsupmodal .check input[type="checkbox"]::before {
+    content: "\2713";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: scale(0) translate(-50%, -50%);
+    line-height: 1;
+}
+#Termsupmodal .check input[type="checkbox"]:checked {
+    background-color: #FFA96B;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+#Termsupmodal .check input[type="checkbox"]:checked::before {
+    border-radius: 4px;
+    transform: scale(1) translate(-50%, -50%)
+}
+#Termsupmodal .item {
+    width: 300px;
+    margin: 0 auto;
+}
+#Termsupmodal .check {
+    text-align: left;
+    display: flex;
+    width: 400px;
+    color: #FFA96B;
+}
+#Termsupmodal .check input {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#searchPasswrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+#searchPasswrap p {
+    font-size: 15px;
+    color: #9C9C9C;
+    margin-bottom: 10px;
+}
+#searchPasswrap {
+    width: 100%;
+}
+#searchPassmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#searchPassmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#searchPassmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#searchPassmodal .search__info {
+    margin-bottom: 40px;
+}
+#searchPassmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#searchPasswrap .search__form fieldset {
+    border: 1px solid #FFA96B;
+    border-right: 0;
+    border-left: 0;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#searchPasswrap .search__form span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA96B;
+}
+#searchPasswrap .search__form label input {
+    position:absolute;
+    clip:rect(0 0 0 0);
+    width:1px;
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+}
+#searchPasswrap .search__form label span {
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 6px;
+    display: flex;
+    cursor: pointer;
+    margin: 2px 0;
+    margin-top: 5px;
+}
+#searchPasswrap .search__form label span::before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fff;
+    box-shadow: inset 0 0 0 4px #FFA96B;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+#searchPasswrap .search__form label input:checked + span::before {
+    box-shadow: inset 0 0 0 8px #FFA96B;
+}
+#searchPasswrap .user-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#searchPasswrap .user-box label {
+    color: #FFA96B;
+    font-size: 16px;
+    font-weight: bold;
+}
+#searchPasswrap .user-box input {
+    border: 1px solid #FFA96B;
+    font-size: 14px;
+    width: 230px;
+    height: 30px;
+    display: flex;
+}
+#searchPasswrap .user-box span {
+    width: 140px;
+    align-items: start;
+}
+#searchPasswrap .search__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 30px;
+}
+#searchPasswrap .search__form button:hover {
+    cursor: pointer;
+}
+#searchPasswrap .new__info {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+#searchIDcompletewrap  {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+    
+}
+#searchIDcompletewrap ul {
+    display: flex;
+    justify-content: space-between;
+}
+#searchIDcompletewrap {
+    width: 100%;
+}
+#searchIDcompletemodal {
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#searchIDcompletemodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#searchIDcompletemodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#searchIDcompletemodal .guide {
+    width: 390px;
+    margin-left: 46px;
+}
+#searchIDcompletewrap .logo {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 112px;
+}
+#searchIDcompletemodal h3 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 100px;
+    margin-bottom: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#searchIDcompletewrap .sub_text {
+    font-size: 15px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-bottom: 31px;
+    margin-top: 14px;
+}
+#searchIDcompletewrap .main_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA96B;
+    border-top: 1px solid #FFA96B;
+    border-bottom: 1px solid #FFA96B;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+/* #searchIDcompletemodal p {
+    font-size: 20px;
+    color: #FFA96B;
+    margin-top: 15px;
+    margin-bottom: 39px;
+    text-align: center;
+    font-weight: bold;
+} */
+
+#searchIDcompletewrap .login__form {
+    align-items: center;
+}
+#searchIDcompletewrap div.user-box {
+    position: relative;
+    width: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 46px;
+}
+#searchIDcompletewrap div.user-box input {
+    width: 394px;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #FFA96B;
+}
+#searchIDcompletewrap .user-box label {
+    font-weight: bold;
+    color: #FFA96B;
+}
+#searchIDcompletewrap .login__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 21px;
+}
+#searchIDcompletewrap .login__inner {
+max-width: 500px;
+width: 100%;
+padding: 100px 0;
+text-align: center;
+margin: 0 auto;
+}
+#searchIDcompletewrap .login__inner > h2 {
+font-size: 34px;
+margin-bottom: 30px;
+}
+#searchIDcompletewrap .login__inner > p {
+font-size: 20px;
+font-weight: 300;
+}
+#searchIDcompletewrap .login__form {
+text-align: center;
+}
+#searchIDcompletewrap .login__form input {
+margin-bottom: 10px;
+}
+#searchIDcompletewrap .login__footer {
+text-align: left;
+font-weight: 300;
+}
+#searchIDcompletewrap .login__footer a {
+text-decoration: underline;
+text-underline-position: under;
+}
+#searchIDwrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+#searchIDwrap p {
+    font-size: 14px;
+    color: #9C9C9C;
+    margin-bottom: 10px;
+}
+#searchIDwrap {
+    width: 100%;
+}
+#searchIDmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#searchIDmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#searchIDmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#searchIDmodal .search__info {
+    margin-bottom: 40px;
+}
+#searchIDmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#searchIDwrap .search__form fieldset {
+    border: 1px solid #FFA96B;
+    border-right: 0;
+    border-left: 0;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#searchIDwrap .search__form label span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA96B;
+}
+#searchIDwrap .search__form label input {
+    position:absolute;
+    clip:rect(0 0 0 0);
+    width:1px;
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+}
+#searchIDwrap .search__form label span {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 6px;
+    display: flex;
+    cursor: pointer;
+    margin: 2px 0;
+    margin-top: 5px;
+}
+#searchIDwrap .search__form label span::before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fff;
+    box-shadow: inset 0 0 0 4px #FFA96B;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+#searchIDwrap .search__form label input:checked + span::before {
+    box-shadow: inset 0 0 0 8px #FFA96B;
+}
+#searchIDwrap .user-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#searchIDwrap .user-box label {
+    color: #FFA96B;
+    font-size: 16px;
+    font-weight: bold;
+}
+#searchIDwrap .user-box input {
+    border: 1px solid #FFA96B;
+    font-size: 14px;
+    width: 230px;
+    height: 30px;
+}
+#searchIDwrap .search__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+#searchIDwrap .search__form button:hover {
+    cursor: pointer;
+}
+#outcompletewrap .login__inner {
+max-width: 500px;
+width: 100%;
+padding: 100px 0;
+text-align: center;
+margin: 0 auto;
+}
+#outcompletewrap .login__inner > h2 {
+font-size: 34px;
+margin-bottom: 30px;
+}
+#outcompletewrap .login__inner > p {
+font-size: 20px;
+font-weight: 300;
+}
+#outcompletewrap .login__form {
+text-align: center;
+}
+#outcompletewrap .login__form input {
+margin-bottom: 10px;
+}
+#outcompletewrap .login__footer {
+text-align: left;
+font-weight: 300;
+}
+#outcompletewrap .login__footer a {
+text-decoration: underline;
+text-underline-position: under;
+}
+#outcompletewrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+#outcompletewrap {
+    display: flex;
+    justify-content: space-between;
+}
+#outcompletewrap {
+    width: 100%;
+}
+#outcompletewrapmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#outcompletewrapmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#outcompletewrapmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#outcompletewrapmodal .guide {
+    width: 390px;
+    margin-left: 46px;
+}
+#outcompletewrap .logo {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 112px;
+}
+#outcompletewrapmodal h3 {
+    font-size: 25px;
+    color: #FFA96B;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#outcompletewrapmodal p {
+    font-size: 20px;
+    color: #FFA96B;
+    margin-top: 15px;
+    margin-bottom: 39px;
+    text-align: center;
+    font-weight: bold;
+}
+#outcompletewrap .login__form {
+    align-items: center;
+}
+#outcompletewrap div.user-box {
+    position: relative;
+    width: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 46px;
+}
+#outcompletewrap div.user-box input {
+    width: 394px;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #FFA96B;
+}
+#outcompletewrap .user-box label {
+    font-weight: bold;
+    color: #FFA96B;
+}
+#outcompletewrap .login__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 179px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 15px;
+}
+#Loginwrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+}
+#Loginwrap ul {
+    display: flex;
+    justify-content: space-between;
+}
+#Loginwrap {
+    width: 100%;
+}
+#Loginmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#Loginmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#Loginmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#Loginmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#Loginwrap #logo {
+    width: 224px;
+    height: 175px;
+    margin: 0 auto;
+}
+#Loginwrap .login__form {
+    align-items: center;
+}
+#Loginwrap div.user-box {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#Loginwrap div.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #FFA96B;
+    outline: none;
+    background: transparent;
+}
+#Loginwrap .user-box label {
+    font-weight: bold;
+    color: #FFA96B;
+}
+#Loginwrap .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #FF6B00;
+}
+#Loginwrap .option a:nth-child(1),
+#Loginwrap .option a:nth-child(2) {
+    border-right: 1px solid #E5E5E5;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+#Loginwrap .login__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+}
+#Loginwrap .login__form button:hover {
+    cursor: pointer;
+}
+#Wrapjoinup {
+    width: 100%;
+}
+#joinupmodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#joinupmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#joinupmodal .img2 img {
+    width: 130px;
+    margin: 30px 0 20px 0;
+}
+#joinupmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#joinupmodal h2 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#joinupmodal .Termsup__form .Term__box {
+    display: flex;
+    border: 2px solid #FF8F3F;
+    width: 298px;
+    height: 355px;
+    margin: 0 auto;
+    font-size: 12px;
+    overflow: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#joinupmodal .Termsup__form .Term__box::-webkit-scrollbar {
+    width: 10px;
+}
+#joinupmodal .Termsup__form .Term__box::-webkit-scrollbar-thumb {
+    height: 10%;
+    background-color: #FFA96B;
+    border-radius: 5px;
+}
+#joinupmodal .Termsup__form .item {
+    font-size: 12px;
+    width: 200px;
+    margin-left: 100px;
+    text-align: left;
+}
+#joinupmodal .Termsup__form .item input {
+    width: 300px;
+    height: 35px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    border: 1px solid #FFA96B;
+}
+#joinupmodal .Termsup__form label {
+    text-align: left;
+    margin-bottom: -1px;
+    color: #FF8F3F;
+}
+#joinupmodal .Termsup__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 20px;
+}
+#joinupmodal .check input[type="checkbox"] {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    outline: none !important;
+    border: 1px solid #9999;
+    vertical-align: middle;
+}
+#joinupmodal .check input[type="checkbox"]::before {
+    content: "\2713";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: scale(0) translate(-50%, -50%);
+    line-height: 1;
+}
+#joinupmodal .check input[type="checkbox"]:checked {
+    background-color: #FFA96B;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+#joinupmodal .check input[type="checkbox"]:checked::before {
+    border-radius: 4px;
+    transform: scale(1) translate(-50%, -50%)
+}
+#Completewrap {
+    width: 100%;
+}
+#Completemodal {
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#Completemodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#Completemodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#Completemodal .guide {
+    width: 390px;
+    margin-left: 46px;
+}
+#Completemodal .logo {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 112px;
+}
+#Completemodal h3 {
+    font-size: 25px;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+#Completemodal p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+#Completemodal .login__form {
+    align-items: center;
+}
+#Completemodal div.user-box {
+    position: relative;
+    width: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 46px;
+}
+#Completemodal div.user-box input {
+    width: 394px;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #FFA96B;
+}
+#Completemodal .user-box label {
+    font-weight: bold;
+    color: #FFA96B;
+}
+#Completemodal .login__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 15px;
+}
+#Completemodal .login__inner {
+max-width: 500px;
+width: 100%;
+padding: 100px 0;
+text-align: center;
+margin: 0 auto;
+}
+#Completemodal .login__inner > h2 {
+font-size: 34px;
+margin-bottom: 30px;
+}
+#Completemodal .login__inner > p {
+font-size: 20px;
+font-weight: 300;
+}
+#Completemodal .login__form {
+text-align: center;
+}
+#Completemodal .login__form input {
+margin-bottom: 10px;
+}
+#Completemodal .login__footer {
+text-align: left;
+font-weight: 300;
+}
+#Completemodal .login__footer a {
+text-decoration: underline;
+text-underline-position: under;
+}
+#findpasswrap .login__inner {
+max-width: 500px;
+width: 100%;
+padding: 100px 0;
+text-align: center;
+margin: 0 auto;
+}
+#findpasswrap .login__inner > h2 {
+font-size: 34px;
+margin-bottom: 30px;
+}
+#findpasswrap .login__inner > p {
+font-size: 20px;
+font-weight: 300;
+}
+#findpasswrap .login__form {
+text-align: center;
+}
+#findpasswrap .login__form input {
+margin-bottom: 10px;
+}
+#findpasswrap .login__footer {
+text-align: left;
+font-weight: 300;
+}
+#findpasswrap .login__footer a {
+text-decoration: underline;
+text-underline-position: under;
+}
+#findpasswrap {
+    margin: 0;
+    padding: 0;
+    font-family: "NexonLv1Gothic";
+    
+}
+#findpasswrap ul {
+    display: flex;
+    justify-content: space-between;
+}
+#findpasswrap {
+    width: 1920px;
+}
+#findpassmodal {
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #FFA96B;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+#findpassmodal .img1 img {
+    position: absolute;
+    right: 43px;
+    top: 38px;
+    width: 15px;
+    z-index: 1;
+}
+#findpassmodal .img1::after {
+    content: '';
+    position: absolute;
+    background-color: #FFA96B;
+    right: 33px;
+    top: 27px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#findpassmodal .guide {
+    width: 390px;
+    margin-left: 46px;
+}
+#findpassmodal .logo {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 112px;
+}
+#findpassmodal h3 {
+    font-size: 30px;
+    color: #FFA96B;
+    margin-top: 100px;
+    margin-bottom: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#findpassmodal .sub_text {
+    font-size: 15px;
+    color: #ccc;
+    line-height: 1.5;
+    margin-bottom: 31px;
+}
+#findpassmodal .main_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFA96B;
+    border-top: 1px solid #FFA96B;
+    border-bottom: 1px solid #FFA96B;
+    padding-top: 20px;
+    padding-bottom: 38px;
+    line-height: 1.5;
+}
+/* #findpassmodal p {
+    font-size: 20px;
+    color: #FFA96B;
+    margin-top: 15px;
+    margin-bottom: 39px;
+    text-align: center;
+    font-weight: bold;
+} */
+
+#findpassmodal .login__form {
+    align-items: center;
+}
+#findpassmodal div.user-box {
+    position: relative;
+    width: 394px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 46px;
+}
+#findpassmodal div.user-box input {
+    width: 394px;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #FFA96B;
+}
+#findpassmodal .user-box label {
+    font-weight: bold;
+    color: #FFA96B;
+}
+#findpassmodal .login__form button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FFA96B;
+    margin-top: 21px;
+}
